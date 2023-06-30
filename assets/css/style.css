@@ -1,0 +1,110 @@
+nav ul li {
+  font-size: 0.6em;
+}
+
+.nav-logo {
+  width: 100px;
+}
+
+.profile-img {
+  width: 25px;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+main {
+  margin-top: 110px !important;
+}
+
+form .profile-text-smoll {
+  font-size: 0.7em;
+}
+
+.netflix-mod-profile {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  background-color: white;
+  font-size: 0.6em;
+  padding: 2px 4px;
+  border: 1px solid black;
+}
+
+.netflix-card:hover {
+  transform: scale(1.2);
+}
+
+#footer-container {
+  margin-top: 100px !important;
+  margin-bottom: 10px !important;
+}
+
+div#utility-link a {
+  font-size: 0.5em;
+  text-decoration: none;
+}
+
+#copyright {
+  font-size: 0.4em;
+}
+
+.netflix-button-form-grey {
+  width: 30%;
+  height: 35px;
+  background-color: rgb(20, 20, 20);
+  color: #6c757d;
+  border: 1px solid rgb(127, 127, 127);
+}
+
+.netflix-button-form-white {
+  width: 30%;
+  height: 35px;
+  border: none;
+}
+
+.black-button-netflix {
+  font-size: 0.7em;
+  width: 80px;
+  border: 1px solid rgb(127, 127, 127);
+  background-color: black;
+  color: white;
+}
+
+.grey-button-netflix {
+  font-size: 0.7em;
+  width: 80px;
+  border: 1px solid rgb(127, 127, 127);
+  background-color: rgb(20, 20, 20);
+  color: #6c757d;
+  font-size: 0.6em;
+}
+
+.grey-button-profile-netflix {
+  font-size: 0.7em;
+  width: 80px;
+  border: 1px solid rgb(127, 127, 127);
+  background-color: rgb(20, 20, 20);
+  color: #6c757d;
+  font-size: 0.6em;
+  width: 70px;
+  height: 30px;
+}
+
+.full-grey-button-netflix {
+  font-size: 0.7em;
+  width: 80px;
+  border: 1px solid rgb(127, 127, 127);
+  background-color: #6c757d;
+  border: none;
+  color: white;
+  font-size: 0.6em;
+  width: 150px;
+}
+
+.body-background {
+  background-color: rgb(20, 20, 20);
+}/*# sourceMappingURL=style.css.map */

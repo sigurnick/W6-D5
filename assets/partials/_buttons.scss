@@ -1,0 +1,54 @@
+@mixin button-netflix {
+  font-size: 0.7em;
+  width: 80px;
+  border: 1px solid $netflix-dark-white;
+}
+
+// button form
+@mixin netflix-button-form {
+  width: 30%;
+  height: 35px;
+}
+.netflix-button-form-grey {
+  @include netflix-button-form;
+  background-color: $netflix-grey;
+  color: $netlix-grey-light;
+  border: 1px solid $netflix-dark-white;
+}
+.netflix-button-form-white {
+  @include netflix-button-form;
+  border: none;
+}
+
+// -----------------------------------
+
+.black-button-netflix {
+  @include button-netflix;
+  background-color: black;
+  color: white;
+}
+
+.grey-button-netflix {
+  @include button-netflix;
+  background-color: $netflix-grey;
+  color: $netlix-grey-light;
+  font-size: 0.6em;
+}
+
+.grey-button-profile-netflix {
+  @include button-netflix;
+  background-color: $netflix-grey;
+  color: $netlix-grey-light;
+  font-size: 0.6em;
+  width: 70px;
+  height: 30px;
+}
+
+.full-grey-button-netflix {
+  @include button-netflix;
+  background-color: $netlix-grey-light;
+  border: none;
+  color: white;
+  font-size: 0.6em;
+  width: 150px;
+}
